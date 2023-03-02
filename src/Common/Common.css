@@ -2,6 +2,7 @@
   width: 80%;
   margin: auto;
 }
+
 .menu2{
  display: flex;
 
@@ -38,6 +39,9 @@
  animation:  sliderTop .5s ease forwards;
  animation-delay: calc(.2s * var(--i));
 }
+/* .menu2 li a:is(:link, :active, :visited).active{
+  background-color: green !important;
+} */
 .menu2 li a:hover{
   
 border-bottom: 3px solid rgb(8, 177, 244);

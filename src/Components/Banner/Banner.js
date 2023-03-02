@@ -58,7 +58,9 @@ const Banner = () => {
             </div>
             <div className='w-full button-box flex items-center flex-col md:flex-row pt-9 gap-5 lg:pr-32'>
               <div className='w-full'>
-                <button className='button w-full font-semibold py-1 lg:py-2 md:text-xl '><a href='https://drive.google.com/file/d/15L1d46SpBclO0peng6dOOC0BOsYIgblv/view' target='blank'>My Resume</a></button>
+                <a href='https://drive.google.com/file/d/15L1d46SpBclO0peng6dOOC0BOsYIgblv/view?usp=sharing' target='blank'>
+                <button className='button w-full font-semibold py-1 lg:py-2 md:text-xl '>My Resume</button>
+                </a>
               </div>
               <div className='w-full'>
                 <button className='button w-full font-semibold py-1 lg:py-2 md:text-xl '><ConnectButton></ConnectButton></button>
