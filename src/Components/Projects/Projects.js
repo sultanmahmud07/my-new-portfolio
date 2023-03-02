@@ -23,7 +23,7 @@ const Projects = () => {
 
 
   return (
-    <div id='Projects' className='common-width'>
+    <div id='Projects' className='common-width lg:pb-10'>
       <div className='pt-24'>
         <div className='text-center'>
           <h1 className='text-center text-5xl font-semibold py-4'><span className='text-primary'>M</span>y Pro<span className='text-primary'>j</span>ects</h1>
