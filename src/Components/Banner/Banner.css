@@ -1,0 +1,141 @@
+.main-bg{
+  /* background:linear-gradient(rgba(0, 0, 0, 0.742), rgba(0, 0, 0, 0.742)), url('../../assast/Banner-img/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* width: 100vw; */
+  height: 100vh;
+}
+.hire-btn{
+  box-shadow: 0 0 20px #25c6f7;
+  opacity: 0;
+  animation:  sliderLeft 1s ease forwards;
+  animation-delay: .5s;
+}
+.name{
+  color: #f72585;
+}
+.button{
+  
+  
+  text-align: center;
+}
+.button {
+  /* padding: 8px 34px; */
+  /* font-weight: 400; */
+
+
+  border: 3px solid #25c6f7;
+  transition: 0.5s;
+  /* font-size: 25px; */
+  text-transform: uppercase;
+  text-align: center;
+}
+.button a{}
+.button:hover{
+  color: rgb(20, 20, 43);
+  background-color: #25c6f7;
+ 
+}
+.button2 a{
+  padding: 8px 34px;
+  /* font-weight: 400; */
+  border: 3px solid #25c6f7;
+  background-color: #25c6f7;
+  /* color: rgb(20, 20, 43); */
+  transition: 0.5s;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.button2 a:hover{
+  /* border: 3px solid #25c6f7;
+  background-color: #f7258400; */
+  /* color: white; */
+}
+
+.write-text{
+  
+}
+.shawo-set{
+  height: 10px;
+  margin-bottom: 3px;
+  border: 2px solid #25c6f7;
+  border-radius: 20px;
+  background-color: #15c2f63f;
+  box-shadow: 0 0   40px #25c6f7;
+}
+.social-icon{
+  display: flex;
+  align-items: center;
+}
+.social-icon a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid#25c6f7;
+  border-radius: 50%;
+  color: #25c6f7;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: .5s ease;
+  opacity: 0;
+  animation:  sliderLeft 1s ease forwards;
+  animation-delay: calc(.2s * var(--i));
+  
+}
+.social-icon a:hover{
+  background: #25c6f7;
+  color: rgb(20, 20, 43);
+  box-shadow: 0 0 20px #25c6f7;
+}
+
+.icon-1{
+  --i: 7;
+}
+.icon-2{
+  --i: 8;
+}
+.icon-3{
+  --i: 9;
+}
+.icon-4{
+  --i: 10;
+}
+
+.img-set{
+  top: 63px;
+  /* left: -10px; */
+}
+
+.img-set-main{
+/* z-index: -1; */
+}
+.bg-set{
+  /* background-color: tomato; */
+  border: 2px solid #25c6f7;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 40px #25c6f7;
+
+}
+.img-bg-overlay-set{
+  background: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.321));
+  /* border-radius: 50%; */
+  filter: blur(82px);
+}
+
+.banner-blur{
+  background: linear-gradient(#0fb4e6a4, #209fff95) ;
+  position: absolute;
+  bottom: -50px;
+  right: -55px;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  z-index: -9;
+  filter: blur(82px);
+}

@@ -1,0 +1,89 @@
+.skills h2{
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  /* color: black; */
+  font-size: 16px;
+}
+.progress-bar{
+  background: #959595;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+}
+.progress-bar div{
+  height: 10px;
+  border-radius: 5px;
+  width: 0px;
+  /* width: 50%; */
+  /* background: red; */
+}
+.progress-bar div span{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: rgb(232, 232, 232);
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.html{
+  background: red ;
+  animation:  html 1s linear forwards;
+}
+.css{
+  background: blue;
+  animation:  css 1s linear forwards;
+}
+.javascript{
+  background: yellow;
+  animation:  javascript 1s linear forwards;
+}
+.react{
+  background: green;
+  animation:  react 1s linear forwards;
+};
+
+
+
+
+.html span{
+  border: 1px solid red;
+}
+.css span{
+  border: 1px solid blue;
+}
+.javascript span{
+  border: 1px solid yellow;
+}
+.react span{
+  border: 1px solid green;
+}
+
+
+@keyframes html{
+  100%{
+    width: 86%;
+  }
+}
+@keyframes css{
+  100%{
+    width: 74%;
+  }
+}
+@keyframes javascript{
+  100%{
+    width: 56%;
+  }
+}
+@keyframes react{
+  100%{
+    width: 49%;
+  }
+}

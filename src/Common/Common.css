@@ -1,0 +1,154 @@
+.common-width{
+  width: 80%;
+  margin: auto;
+}
+.menu2{
+ display: flex;
+
+}
+.menu2 li{
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.link-1{
+  --i:1;
+}
+.link-2{
+  --i:2;
+}
+.link-3{
+  --i:3;
+}
+.link-4{
+  --i:4;
+}
+.link-5{
+  --i:5;
+}
+.link-6{
+  --i:6;
+}
+.menu2 li a{
+  display: inline-block;
+  padding: 6px;
+  transition: 0.5s;
+/* border-bottom: 2px solid rgb(8, 177, 244); */
+ opacity: 0;
+ animation:  sliderTop .5s ease forwards;
+ animation-delay: calc(.2s * var(--i));
+}
+.menu2 li a:hover{
+  
+border-bottom: 3px solid rgb(8, 177, 244);
+}
+
+
+.contract{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.607), rgba(0, 0, 0, 0.645)), url(../assast/Email-bg/email-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-logo{
+  opacity: 0;
+  animation:  sliderRight 1s ease forwards;
+}
+
+.banner-fast-header-1{
+  opacity: 0;
+  animation:  sliderBottom 1s ease forwards;
+  animation-delay: .5s;
+}
+.banner-fast-header-2{
+  opacity: 0;
+  animation:  sliderTop 1s ease forwards;
+  animation-delay: .5s;
+}
+.banner-name{
+  opacity: 0;
+  animation:  sliderRight 1s ease forwards;
+  animation-delay: 1s;
+}
+.banner-p{
+  opacity: 0;
+  animation:  sliderLeft 1s ease forwards;
+  animation-delay: 1s;
+}
+
+.button-box{
+  opacity: 0;
+  animation:  sliderTop 1s ease forwards;
+  animation-delay: 2s;
+}
+.banner-img{
+  opacity: 0;
+  animation:  zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+  animation-delay: 2s, 3s;
+}
+
+/* KEYFRAMES ANIMATION  */
+@keyframes sliderRight {
+  0%{
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes sliderTop {
+  0%{
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes sliderBottom {
+  0%{
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes sliderLeft {
+  0%{
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes zoomIn {
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes floatImage {
+  0%{
+    transform: translateY(0);
+    /* opacity: 0; */
+  }
+  50%{
+    transform: translateY(-24px);
+    /* opacity: 0; */
+  }
+  100%{
+    transform: translateY(0);
+    /* opacity: 1; */
+  }
+}
