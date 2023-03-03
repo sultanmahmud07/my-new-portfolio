@@ -31,7 +31,7 @@ const Navber = () => {
   </React.Fragment>
   return (
    <div id="Navber" className=' fixed top-0 left-0 right-0 z-50'>
-    <div className='bg-base-200 shadow-lg text-white'>
+    <div className='bg-base-200 shadow-lg '>
     <div className='common-width'>
     <div className="navbar ">
       <div className="navbar-start">
