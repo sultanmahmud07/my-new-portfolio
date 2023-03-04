@@ -7,23 +7,25 @@ const ProjectCard = ({ service }) => {
   const { _id, title, description, img } = service
   console.log(service);
   return (
-    <div className="card-b  w-full relative">
-      <img className='w-full rounded-xl' src={img} alt="Shoes" />
+    <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+      <div className="card-b  w-full relative">
+        <img className='w-full rounded-xl' src={img} alt="Shoes" />
 
-      <Link to={`details/${_id}`}>
-        <div className="card-text-b  w-full h-full">
-          <h2 className="card-title gap-8 text-2xl font-bold shadow-md text-white">{title}</h2>
-          <p className='text-white text-center'>{
-            description.length > 100 ? <span>{description.slice(0, 100) + '...'} <Link>Read more</Link></span> : <span>{description}</span>
-          }</p>
-          <div className="card-btn">
+        <Link to={`details/${_id}`}>
+          <div className="card-text-b  w-full h-full">
+            <h2 className="card-title gap-8 text-2xl font-bold shadow-md text-white">{title}</h2>
+            <p className='text-white text-center'>{
+              description.length > 100 ? <span>{description.slice(0, 100) + '...'} <Link>Read more</Link></span> : <span>{description}</span>
+            }</p>
+            <div className="card-btn">
 
-            <RiShareBoxFill></RiShareBoxFill>
+              <RiShareBoxFill></RiShareBoxFill>
+            </div>
           </div>
+        </Link>
+        <div className='img-over-color'>
+          {/* background color overlay */}
         </div>
-      </Link>
-      <div className='img-over-color'>
-        {/* background color overlay */}
       </div>
     </div>
   );

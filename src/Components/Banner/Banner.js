@@ -18,7 +18,7 @@ const Banner = () => {
   const transition = { duration: 2, type: 'spring' }
 
   return (
-    <div id='Banner' className=' mt-16'>
+    <div id='Banner' className=' mt-20'>
       <div className='main-bg'>
         <div className='common-width flex flex-col-reverse md:flex-row h-auto  lg:-h-screen'>
           <div className='w-full'>

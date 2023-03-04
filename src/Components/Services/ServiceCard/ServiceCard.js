@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import "../../../Common/Common.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const ServiceCard = ({ card }) => {
-  const { name, description, icon, bgClass } = card;
+	const { name, description, icon, bgClass } = card;
 	const [descriptionDetails, setdescriptionDetails] = useState(false);
 	// console.log(card)
 
-  return (
-    <div className='text-center service-card p-6 pb-8'>
+	return (
+	<div data-aos="fade-up" data-aos-duration="3000" >
+			<div className='text-center service-card p-6 pb-8'>
 			<div className={`text-center flex justify-center items-center py-4 lg:py-6 text-6xl ${bgClass}`}>
 				{icon}
 			</div>
@@ -40,7 +44,8 @@ const ServiceCard = ({ card }) => {
 				</p>
 			</div>
 		</div>
-  );
+	</div>
+	);
 };
 
 export default ServiceCard;
