@@ -11,7 +11,7 @@ const ConnectCard = ({connect}) => {
                   </div>
                   <div>
                     <h3 className='font-bold lg:text-xl'>{name}</h3>
-                    <p className='text-sm lg:text-lg'>{description}</p>
+                    <p className='text-sm lg:text-base'>{description}</p>
                   </div>
                 </div>
   );

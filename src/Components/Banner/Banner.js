@@ -11,6 +11,7 @@ import { FaFacebookF } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { GrTwitter } from 'react-icons/gr';
+import { BsGithub } from 'react-icons/bs';
 import { motion } from "framer-motion"
 import ConnectButton from '../../Hooks/ConnectButton/ConnectButton';
 
@@ -55,6 +56,7 @@ const Banner = () => {
               <a className='icon-2' target="blank" href='https://www.linkedin.com/in/md-shimul-molla-03b8b2259/'><FaLinkedinIn></FaLinkedinIn></a>
               <a className='icon-3' target="blank" href='https://twitter.com/MdShimulMolla07'><GrTwitter></GrTwitter></a>
               <a className='icon-4' target="blank" href='https://www.instagram.com/sk.sultan_mahmud/'><FaInstagram></FaInstagram></a>
+              <a className='icon-5' target="blank" href='https://github.com/sultanmahmud07'><BsGithub></BsGithub></a>
             </div>
             <div className='w-full button-box flex items-center flex-col md:flex-row pt-9 gap-5 lg:pr-32'>
               <div className='w-full'>
