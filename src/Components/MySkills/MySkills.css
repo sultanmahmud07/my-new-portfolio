@@ -1,0 +1,17 @@
+
+
+
+
+.mh-professional-progress li{
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  width: 48%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.mh-progress{
+ margin-bottom: 10px;
+ font: 900 1.14285/1;
+ color: white;
+}

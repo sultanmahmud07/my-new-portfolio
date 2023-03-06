@@ -80,12 +80,15 @@
   color: #25c6f7;
   font-size: 20px;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 18px;
   transition: .5s ease;
   opacity: 0;
   animation:  sliderLeft 1s ease forwards;
   animation-delay: calc(.2s * var(--i));
   
+}
+.social-icon a:nth-child(5){
+  margin-right: 0;
 }
 .social-icon a:hover{
   background: #25c6f7;
