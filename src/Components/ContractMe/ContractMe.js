@@ -92,28 +92,28 @@ const ContractMe = () => {
             </div>
 
             <div className='w-full '>
-              <div className="card email-shadow-set lg:w-3/4 py-5 my-4 lg:my-6 mx-auto">
+              <div  data-aos="zoom-out-up" className="card email-shadow-set lg:w-3/4 py-5 my-4 lg:my-6 mx-auto">
                 <div className='flex items-center flex-col justify-center'>
                   <div className="avatar">
                     <div className="w-14 lg:w-16 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                    <img src={Email} alt="" />
+                      <img src={Email} alt="" />
                     </div>
                   </div>
                   <p className='mt-2  text-3xl font-bold'>Send Email</p>
                 </div>
                 <form ref={form} onSubmit={sendEmail} className="card-body ">
                   <div className="user-box">
-                    <input name='user_name' type="text"  className="input-1 w-full" required />
+                    <input name='user_name' type="text" className="input-1 w-full" required />
                     <label>Your Name</label>
                   </div>
                   <div className="user-box">
-                    <input name='user_email' type="email"  className="input-2 w-full" required />
+                    <input name='user_email' type="email" className="input-2 w-full" required />
                     <label>Your Email</label>
 
                   </div>
                   <div className="user-box">
 
-                    <textarea name='message' className="input-3 textarea textarea-info p-1 w-full" placeholder='Your massage'  required></textarea>
+                    <textarea name='message' className="input-3 textarea textarea-info p-1 w-full" placeholder='Your massage' required></textarea>
                     {/* <label>Your massage</label> */}
                   </div>
                   <div className="form-control mt-6 send-box">

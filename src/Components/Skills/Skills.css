@@ -152,3 +152,228 @@
     width: 76%;
   }
 }
+
+
+/* rigth site code here  */
+.circle-wrap{
+  display: grid;
+  grid-template-columns: repeat(1, 160px);
+  grid-gap: 80px;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 150px;
+  height: 150px;
+  background-color: #909fa4;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill-1,
+.circle-wrap .circle .fill-2,
+.circle-wrap .circle .fill-3,
+.circle-wrap .circle .fill-4{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+
+}
+.circle-wrap .circle .mask{
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+/* color animation for 1st progress bar  */
+.mask .fill-1{
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #25c6f7;
+}
+.mask .fill-1,
+.circle .fill-1{
+  animation: fill-1 ease-in-out 3s;
+  transform: rotate(153deg);
+  /* background-color: #25c6f7; */
+}
+
+@keyframes fill-1{
+  0%{
+   transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(153deg);
+  }
+}
+
+/* color animation for 2st progress bar  */
+.mask .fill-2{
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #25c6f7;
+}
+.mask .fill-2,
+.circle .fill-2{
+  animation: fill-2 ease-in-out 3s;
+  transform: rotate(117deg);
+  /* background-color: #25c6f7; */
+}
+
+@keyframes fill-2{
+  0%{
+   transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(117deg);
+  }
+}
+
+/* color animation for 3st progress bar  */
+.mask .fill-3{
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #25c6f7;
+}
+.mask .fill-3,
+.circle .fill-3{
+  animation: fill-3 ease-in-out 3s;
+  transform: rotate(135deg);
+  /* background-color: #25c6f7; */
+}
+
+@keyframes fill-3{
+  0%{
+   transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(135deg);
+  }
+}
+
+/* color animation for 4st progress bar  */
+.mask .fill-4{
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #25c6f7;
+}
+.mask .fill-4,
+.circle .fill-4{
+  animation: fill-4 ease-in-out 3s;
+  transform: rotate(170deg);
+  /* background-color: #25c6f7; */
+}
+
+@keyframes fill-4{
+  0%{
+   transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(170deg);
+  }
+}
+
+
+
+
+/* new skill adde right site  */
+.container{
+position: relative;
+}
+
+.container .card{
+  position: relative;
+  /* width: 150px; */
+  /* background: black; */
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 300px; */
+  border-radius: 4px;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.5s;
+  }
+  .container .card:hover{
+    transform: translateY(-10px);
+    /* box-shadow: 0 15px 35px #25c6f7; */
+  }
+
+.percent{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: inset0 0 50px #000;
+}
+
+.percent .number{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.percent .number h2{
+ /* color: white; */
+ font-weight: 700;
+ font-size: 30px;
+ transition: 0.5s;
+}
+
+.card:hover .percent .number h2{
+  font-size: 40px;
+  color: white;
+}
+
+.text{
+  position: relative;
+  /* color: #25c6f7; */
+  letter-spacing: 1px;
+  /* margin-top: 5px; */
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.card:hover .text{
+  color: white;
+
+}
+
+.skill-svg{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  z-index: 1000;
+}
+
+.skill-svg circle{
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #959595;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+
+}
+
+.skill-svg circle:nth-child(2){
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+.card:nth-child(1) svg circle:nth-child(2){
+  stroke-dashoffset: calc(440 - (440 * 90) / 100);
+  stroke: #25c6f7;
+}
+.card:nth-child(2) svg circle:nth-child(2){
+   stroke-dashoffset: calc(440 - (440 * 75) / 100);
+  stroke: #25c6f7;
+}
+.card:nth-child(3) svg circle:nth-child(2){
+  stroke-dashoffset: calc(440 - (440 * 60) / 100);
+  stroke: #25c6f7;
+}
+.card:nth-child(4) svg circle:nth-child(2){
+  stroke-dashoffset: calc(440 - (440 * 89) / 100);
+  stroke: #25c6f7;
+}

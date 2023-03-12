@@ -351,3 +351,24 @@ border-bottom: 3px solid rgb(8, 177, 244);
   background: red;
   animation:  mono 1s linear forwards;
 }; */
+
+
+/* color animation for 4st progress bar  */
+.mask .fill-4{
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: red;
+}
+.mask .fill-4,
+.circle .fill-4{
+  animation: fill-4 ease-in-out 3s;
+  transform: rotate(135deg);
+}
+
+@keyframes fill-4{
+  0%{
+   transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(153deg);
+  }
+}
