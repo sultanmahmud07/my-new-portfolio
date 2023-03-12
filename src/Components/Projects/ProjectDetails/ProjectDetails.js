@@ -8,7 +8,7 @@ const ProjectDetails = () => {
   console.log(item_details);
   return (
     <div className='common-width pb-16'>
-      <div>
+      <div className='pt-20'>
         <img src={img} alt="" />
         <div className='grid grid-cols-2 gap-9 pt-6 pb-4'>
           <div className='shadow-2xl'>
@@ -39,7 +39,7 @@ const ProjectDetails = () => {
           }
         </ul>
         <div className='py-10'>
-        <button className='button2'><a href={live_link} target='blank' >Live Site</a></button>
+          <button className='button2'><a href={live_link} target='blank' >Live Site</a></button>
           {/* <a href={live_link}>hello</a> */}
         </div>
       </div>
