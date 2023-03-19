@@ -92,7 +92,7 @@ const ContractMe = () => {
             </div>
 
             <div className='w-full '>
-              <div  data-aos="zoom-out-up" className="card email-shadow-set lg:w-3/4 py-5 my-4 lg:my-6 mx-auto">
+              <div data-aos="zoom-in" data-aos-duration="3000" className="card email-shadow-set lg:w-3/4 py-5 my-4 lg:my-6 mx-auto">
                 <div className='flex items-center flex-col justify-center'>
                   <div className="avatar">
                     <div className="w-14 lg:w-16 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">

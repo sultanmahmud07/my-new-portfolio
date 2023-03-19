@@ -23,6 +23,7 @@ const Navber = () => {
     <li><Link onClick={home} className='font-semibold link-2' spy={true} to="Services" smooth={true} >Services</Link></li>
     <li><Link onClick={home} className='font-semibold link-3' spy={true} to="Projects" smooth={true} >Projects</Link></li>
     <li><Link onClick={home} className='font-semibold link-4' spy={true} to="Skills" smooth={true} >Skills</Link></li>
+    <li><Link onClick={home} className='font-semibold link-4' spy={true} to="AboutMe" smooth={true} >About</Link></li>
     <li><Link onClick={home} className='font-semibold link-5' spy={true} to="Contract" smooth={true} >Contract</Link></li>
     {/* <li><Link className='font-semibold' spy={true} to={Navber} smooth={true} activeClass='activeClass'>Home</Link></li> */}
 

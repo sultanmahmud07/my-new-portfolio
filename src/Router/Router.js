@@ -1,3 +1,4 @@
+import Blog from "../Components/Blog/Blog";
 import ProjectDetails from "../Components/Projects/ProjectDetails/ProjectDetails";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -25,7 +26,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/blog',
-        element: <p>Blog section</p>
+        element: <Blog></Blog>
       },
       // {
       //   path: '/blog',

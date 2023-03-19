@@ -26,8 +26,8 @@ const Projects = () => {
     <div id='Projects' className='common-width lg:pb-5'>
       <div className='pt-24 my-24'>
         <div className='text-center'>
-          <h1 className='text-center text-4xl lg:text-5xl font-semibold py-4'>MY <span className='text-primary'>PROJECTS</span></h1>
-          <p className='md:w-3/4 mx-auto'>I have been involved in web development since last two years and have completed many projects here are some of my completed projects.</p>
+          <h1 data-aos="zoom-in" className='text-center text-4xl lg:text-5xl font-semibold py-4'>MY <span className='text-primary'>PROJECTS</span></h1>
+          <p data-aos="fade-up" className='md:w-3/4 mx-auto'>I have been involved in web development since last two years and have completed many projects here are some of my completed projects.</p>
         </div>
 
         {/* projects card  */}

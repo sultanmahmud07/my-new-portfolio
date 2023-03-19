@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutMe from '../AboutMe/AboutMe';
 import Banner from '../Banner/Banner';
 import ContractMe from '../ContractMe/ContractMe';
 import MySkills from '../MySkills/MySkills';
@@ -13,7 +14,7 @@ const Home = () => {
       <Services></Services>
       <Projects></Projects>
       <Skills></Skills>
-      {/* <MySkills></MySkills> */}
+      <AboutMe></AboutMe>
       <ContractMe></ContractMe>
     </div>
   );

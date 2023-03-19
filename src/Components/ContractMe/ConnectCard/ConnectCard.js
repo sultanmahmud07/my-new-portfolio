@@ -5,9 +5,7 @@ const ConnectCard = ({ connect }) => {
   const { bgClass, icon, name, description } = connect;
   console.log(connect)
   return (
-    <div
-      data-aos="fade-up"
-      data-aos-anchor-placement="top-bottom"
+    <div data-aos="fade-up" data-aos-duration="3000" 
       className='flex gap-4 location-border-set'
     >
       <div className='cursor-pointer text-primary font-bold text-4xl  lg:text-6xl'>
