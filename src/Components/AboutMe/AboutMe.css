@@ -9,7 +9,11 @@
   position: relative;
   border-left: 12px solid rgb(15, 29, 54);
   border-bottom: 10px solid rgb(15, 29, 54);
+  
   /* border: 10px solid rgb(15, 29, 54); */
+}
+.about-img img{
+  box-shadow:4px -4px 17px -4px #25c6f7;
 }
 .about-img::after{
  content: "";
