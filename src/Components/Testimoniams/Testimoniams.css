@@ -1,9 +1,9 @@
 
 .t-card-bg-set{
-  background-color: #1318543d;
-  border: 2px solid #25c6f7;
-  box-shadow: 0 0 20px #25c6f7;
-  border-radius: 15px;
+  background-color: #20235827;
+  border: 6px solid #8f44f0;
+  box-shadow: 0px 3px 21px -6px #25c6f7;
+  border-radius: 20px;
 }
 
 
@@ -13,4 +13,27 @@
 .t-wrapper .swiper{
   width: 100%;
   height: 80%;
+}
+
+.t-blur1{
+  background: linear-gradient(#e60fbb8d, #209eff94) ;
+  position: absolute;
+  bottom: -50px;
+  right: -55px;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  z-index: -9;
+  filter: blur(82px);
+}
+.t-blur2{
+  background: linear-gradient(#e60fbb8d, #209eff94) ;
+  position: absolute;
+  top: 0px;
+  left: -45px;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  z-index: -9;
+  filter: blur(82px);
 }

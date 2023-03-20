@@ -67,7 +67,7 @@ const ContractMe = () => {
 
 
   return (
-    <div id='Contract' className='lg:my-28 relative lg:py-14'>
+    <div id='Contract' className='lg:mt-28 relative lg:pt-12 lg:pb-28'>
       <div className='connect-bg-color h-16 lg:h-32 '>
         {/* bg-set */}
       </div>

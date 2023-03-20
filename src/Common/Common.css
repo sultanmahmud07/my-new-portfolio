@@ -49,7 +49,7 @@ border-bottom: 3px solid rgb(8, 177, 244);
 
 
 #Contract{
-  background-image:linear-gradient(rgba(8, 16, 88, 0.607), rgba(0, 0, 0, 0.645)), url(../assast/Email-bg/email-gb.jpg);
+  background-image:linear-gradient(rgba(8, 16, 88, 0.607), rgba(0, 0, 0, 0.305)), url(../assast/Email-bg/email-gb.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,6 +109,18 @@ border-bottom: 3px solid rgb(8, 177, 244);
   border: 2px solid #25c6f7;
   transform: scale(1.02);
 
+}
+
+.service-blur{
+  background: linear-gradient(#e60fbb49, #209eff60) ;
+  position: absolute;
+  bottom: -260px;
+  left: -350px;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  z-index: -9;
+  filter: blur(92px);
 }
 
 

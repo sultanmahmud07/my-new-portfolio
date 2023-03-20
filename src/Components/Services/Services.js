@@ -36,10 +36,13 @@ const Services = () => {
   ]
   return (
     <div id='Services' className='common-width'>
-      <div className='pt-24'>
+      <div className='pt-24 relative'>
         <div className='text-center'>
           <h1 data-aos="zoom-in" className='text-center text-4xl lg:text-5xl font-semibold py-4'>My <span className='text-primary'>Services</span></h1>
-          <p data-aos="fade-up" className='md:w-3/4 mx-auto mb-2 hidden md:block'>Our web developer services offer expertise in building and maintaining dynamic and responsive websites, including e-commerce, content management systems, and web applications. Contact us to discuss your project.</p>
+          <p data-aos="fade-up" className='md:w-3/4 mx-auto mb-2 lg:mb-4 hidden md:block'>Our web developer services offer expertise in building and maintaining dynamic and responsive websites, including e-commerce, content management systems, and web applications. Contact us to discuss your project.</p>
+        </div>
+        <div className="service-blur">
+          {/* service blur container  */}
         </div>
 
         {/* projects card  */}
