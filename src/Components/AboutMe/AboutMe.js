@@ -5,7 +5,7 @@ import AboutImg from "../../assast/About/about-img.png"
 
 const AboutMe = () => {
   return (
-    <div id='AboutMe' className='py-12 md:py-24'>
+    <div id='AboutMe' className='py-5 md:py-24'>
       <div className="common-width">
         <div className='about contain flex flex-col-reverse md:flex-row gap-5 lg:gap-10 gap-y-14'>
           <div  data-aos="zoom-in" data-aos-duration="3000"  className="col-left w-full flex items-center justify-center md:w-1/3 lg:ml-9 ">

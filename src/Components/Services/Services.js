@@ -36,7 +36,7 @@ const Services = () => {
   ]
   return (
     <div id='Services' className='common-width'>
-      <div className='pt-24 relative'>
+      <div className='pt-5 lg:pt-24 relative'>
         <div className='text-center'>
           <h1 data-aos="zoom-in" className='text-center text-4xl lg:text-5xl font-semibold py-4'>My <span className='text-primary'>Services</span></h1>
           <p data-aos="fade-up" className='md:w-3/4 mx-auto mb-2 lg:mb-4 hidden md:block'>Our web developer services offer expertise in building and maintaining dynamic and responsive websites, including e-commerce, content management systems, and web applications. Contact us to discuss your project.</p>
@@ -46,7 +46,7 @@ const Services = () => {
         </div>
 
         {/* projects card  */}
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 pt-9'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 pt-4 md:pt-9'>
 
         {
             servicesData.map(card => <ServiceCard

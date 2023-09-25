@@ -7,7 +7,7 @@ import SkillImg from './Skills-img/img-removebg-preview.png'
 const Skills = () => {
   return (
     <div id='Skills' className='skills-bg lg:pt-5'>
-      <div className='common-width py-12'>
+      <div className='common-width py-6 lg:py-12'>
         <div className='text-center'>
           <h1 className='text-center text-4xl lg:text-5xl font-semibold py-4'>MY <span className='text-primary'>SKILLS</span></h1>
           {/* <p className='md:w-3/4 mx-auto'>I have been involved in web development since last two years and have completed many projects here are some of my completed projects.</p> */}
